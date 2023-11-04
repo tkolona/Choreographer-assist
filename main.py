@@ -37,7 +37,7 @@ def main():
 
             if "зареди" in command:
                 # Пример: "Зареди песен1.mp3"
-                file_name = command.split("зареди")[1].strip()
+                file_name = command.split("зареди")[1].strip() +".mp3"
                 play_audio(file_name)
             elif "готови" in command:
                 # Пример: "Готови"
